@@ -1,0 +1,34 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.text-container {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+}
+.title:first-child {
+  font-size: 4rem;
+  color: red;
+}
+.title:last-child {
+  font-size: 2rem;
+}/*# sourceMappingURL=home_20240706160052.css.map */

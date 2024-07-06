@@ -1,0 +1,13 @@
+.welcome-screen,
+.main-content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-screen {
+  font-size: 2rem;
+  color: white;
+  background: #282c34;
+  padding: 2rem;
+  border-radius: 10px;
+}/*# sourceMappingURL=welcome_20240706145422.css.map */

@@ -1,0 +1,25 @@
+div {
+	width: 100vw;
+	height: 100vh;
+	background-color: aquamarine;
+}
+
+.welcome-screen,
+.main-content {
+	position: absolute;
+
+	transform: translate(-50%, -50%);
+}
+
+.welcome-screen {
+	font-size: 2rem;
+	color: white;
+	background: #282c34;
+	padding: 2rem;
+	border-radius: 10px;
+}
+
+.main-content {
+	font-size: 1.5rem;
+	color: #282c34;
+}

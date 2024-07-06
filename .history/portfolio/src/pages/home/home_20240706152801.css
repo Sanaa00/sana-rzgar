@@ -1,0 +1,10 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-container .text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=home_20240706152801.css.map */

@@ -1,0 +1,42 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.text-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+}
+.title:first-child {
+  font-size: 4rem;
+  color: red;
+}
+.title:last-child {
+  font-size: 2rem;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}/*# sourceMappingURL=home_20240706155754.css.map */
