@@ -1,0 +1,28 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+  /* font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto; */
+  font-weight: 400;
+  font-style: normal;
+  /* width: 100vw; */
+  box-sizing: border-box;
+
+}
+.marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.App {
+  /* position: relative;
+  overflow: hidden; */
+  /* width: 100vw; */
+  /* padding: 0 50px; */
+}
+.arimo {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}

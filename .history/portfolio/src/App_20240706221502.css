@@ -1,0 +1,14 @@
+*{
+  margin: auto 0;
+  padding: 0 50px;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.App {
+  /* position: relative;
+  overflow: hidden; */
+  width: 100vw;
+}

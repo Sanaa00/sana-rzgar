@@ -1,0 +1,36 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+.text-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+}
+.title:first-child {
+  font-size: 4rem;
+  color: red;
+}
+.title:last-child {
+  font-size: 2rem;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=home_20240706215319.css.map */

@@ -1,0 +1,38 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* height: 100vh; */
+}
+.about-container .text-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex: 1;
+}
+.about-container .text-container .title {
+  font-size: 2rem;
+  font-weight: bold;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+}
+.about-container .text-container .title:first-child {
+  font-size: 4rem;
+  color: red;
+}
+.about-container .text-container .title:last-child {
+  font-size: 2rem;
+}
+.about-container .profile-image {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=about.css.map */

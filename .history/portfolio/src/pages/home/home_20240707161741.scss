@@ -1,0 +1,10 @@
+@import '../../colors.scss';
+.home-container {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	background-color: $dark8;
+	color: $secondery;
+	// height: 100vh;
+	// padding: 0 40px;
+}
