@@ -1,0 +1,8 @@
+.skill-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 0 100px;
+}/*# sourceMappingURL=skill_20240708161135.css.map */

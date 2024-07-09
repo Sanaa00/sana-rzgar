@@ -1,0 +1,9 @@
+.pro-detail {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&:first-child {
+		font-size: 3rem;
+	}
+}

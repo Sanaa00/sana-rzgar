@@ -1,0 +1,15 @@
+.pro-detail {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.name {
+		font-size: 2rem;
+	}
+	.title {
+		font-size: 50pxrem;
+	}
+	.tech {
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,14 @@
+.pro-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pro-detail:first-child {
+  font-size: 4rem;
+}
+.pro-detail:nth-child(2) {
+  font-size: 2rem;
+}
+.pro-detail:last-child {
+  font-size: 1rem;
+}/*# sourceMappingURL=projectDetail_20240708221614.css.map */

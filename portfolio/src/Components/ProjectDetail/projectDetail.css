@@ -1,0 +1,22 @@
+.pro-detail {
+  display: flex;
+  flex-direction: column;
+  color: #f4f1fb;
+  width: 400px;
+  background-color: transparent;
+}
+.pro-detail .name {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+.pro-detail .title {
+  font-size: 25px;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+.pro-detail .tech {
+  font-size: 20px;
+  background-color: transparent;
+}/*# sourceMappingURL=projectDetail.css.map */

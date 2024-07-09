@@ -1,0 +1,14 @@
+.pro-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pro-detail .name {
+  font-size: 2rem;
+}
+.pro-detail .title {
+  font-size: 25px;
+}
+.pro-detail .tech {
+  font-size: 20px;
+}/*# sourceMappingURL=projectDetail_20240708221909.css.map */
