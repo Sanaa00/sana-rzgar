@@ -1,0 +1,29 @@
+@import './colors.scss';
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-style: normal;
+
+  box-sizing: border-box;
+  background-color: transparent;
+}
+.marcellus-regular {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.App {
+  color: $text;
+  background-color: transparent;
+  /* position: relative;
+  overflow: hidden; */
+  /* width: 100vw; */
+  /* padding: 0 50px; */
+}
+.arimo {
+  font-family: 'Arimo', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
