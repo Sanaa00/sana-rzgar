@@ -1,27 +1,12 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { useRef } from 'react';
 import './project.scss';
 import { motion, useInView } from 'framer-motion';
 import ProjectDetail from '../ProjectDetail/ProjectDetail';
 import { useLoaderData } from 'react-router-dom';
-
+import { LoaderData } from '../../types.ts';
 function Project() {
-  const data = useLoaderData();
-  const allProject = [
-    {
-      img: 'https://images.unsplash.com/photo-1608977230965-6a1b92233ac6?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      id: 1,
-      name: 'project 1',
-      tech: ['REact ', 'tailwind css', 'jsvascript'],
-      title: 'frontend',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1613545325268-9265e1609167?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      id: 2,
-      name: 'project 2',
-      tech: ['REact ', 'tailwind css', 'jsvascript'],
-      title: 'frontend',
-    },
-  ];
+  const data = useLoaderData() as LoaderData | undefined;
 
   return (
     <div className="projects">
@@ -31,7 +16,7 @@ function Project() {
 
         return (
           <motion.div
-            key={pro.id}
+            key={pro._id}
             className="project"
             ref={ref}
             initial={{ opacity: 0, x: index % 2 === 0 ? -100 : 100 }}

@@ -1,20 +1,29 @@
 import { useState } from 'react';
 import './getintoch.scss';
 import { contactSubmit } from '../../apiCall/api';
+import { FormDatas } from '../../types';
+// type FormData = {
+//   name: string;
+//   email: string;
+//   phone: string;
+//   message: string;
+// };
 function GetInToch() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormDatas>({
     name: '',
     email: '',
     phone: '',
     message: '',
   });
 
-  const handleChange = (e) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     contactSubmit(formData);
     // Handle form submission logic here

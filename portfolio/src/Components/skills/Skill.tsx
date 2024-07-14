@@ -2,11 +2,12 @@ import { useRef } from 'react';
 import './skill.scss';
 import { motion, useInView } from 'framer-motion';
 import { useLoaderData } from 'react-router-dom';
+import { LoaderData } from '../../types';
 
 function Skill() {
   const skillRef = useRef(null);
   const skillInView = useInView(skillRef, { once: true, threshold: 0.5 });
-  const data = useLoaderData();
+  const data = useLoaderData() as LoaderData | undefined;
 
   console.log('skill', data);
 
@@ -48,7 +49,6 @@ function Skill() {
             key={skill._id}
             variants={skillVariants}
           >
-            {/* {skill} */}
             <div className="name">{skill.name}</div>
           </motion.div>
         ))}

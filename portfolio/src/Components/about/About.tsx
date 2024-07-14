@@ -5,7 +5,7 @@ import cv from '../../assets/sana.pdf';
 function About() {
   const letterAnimation = {
     hidden: { opacity: 0 },
-    visible: (i) => ({
+    visible: (i: number) => ({
       opacity: 1,
       transition: {
         delay: i * 0.05,

@@ -5,10 +5,13 @@ import { motion } from 'framer-motion';
 import Skill from '../../Components/skills/Skill';
 import GetInToch from '../../Components/GetInToch/GetInToch';
 import Contact from '../../Components/contact/Contact';
-import { useLoaderData } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
+
 import ProjectSlider from '../../Components/ProjectSlider.tsx/ProjectSlider';
-function Home({ show }) {
+type Show = {
+  show: boolean;
+};
+function Home({ show }: Show) {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
 
   return (
