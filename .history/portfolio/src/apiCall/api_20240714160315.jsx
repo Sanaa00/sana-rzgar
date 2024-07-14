@@ -27,36 +27,36 @@ export const projectLoader = async ({ request, params }) => {
   return data;
 };
 
-export async function contactSubmit({ formData }) {
+export async function contactSubmit() {
   try {
-    const response = await fetch('http://localhost:8090/api/contact', {
-      method: 'POST',
+    const response = await fetch("http://localhost:8090/api/contact", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type":"application/json",
       },
-      body: JSON.stringify(formData),
-    });
+      body:JSON.stringify(formData)
+    }),
     if (!response.ok) {
-      throw new Error('networkresponse was not ok');
+      throw new Error("networkresponse was not ok")
     }
     const result = await response.json();
-    console.log('form data submitted :', result);
-  } catch (error) {
-    console.log('error');
-  }
+    console.log("form data submitted :" ,result)
+  }catch(error)
+  {
+    
+}}
+
+export async function getInTochAction({ request }) {
+  const formData = await request.formData();
+
+  const data = {
+    name: formData.get('name'),
+    email: formData.get('email'),
+    phone: formData.get('phone'),
+    message: formData.get('message'),
+  };
+
+  console.log('submitted data:', data);
+
+  // return redirect('/');
 }
-
-// export async function getInTochAction({ request }) {
-//   const formData = await request.formData();
-
-//   const data = {
-//     name: formData.get('name'),
-//     email: formData.get('email'),
-//     phone: formData.get('phone'),
-//     message: formData.get('message'),
-//   };
-
-//   console.log('submitted data:', data);
-
-//   // return redirect('/');
-// }

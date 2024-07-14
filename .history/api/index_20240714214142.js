@@ -19,7 +19,7 @@ app.use(cors());
 //   optionsSuccessStatus: 204,
 // };
 
-// app.use(cors(corsOptions));
+app.use(cors(corsOptions));
 
 app.use('/api/skill', skillRoute);
 app.use('/api/project', ProjectRoute);

@@ -7,7 +7,6 @@ import { useLoaderData } from 'react-router-dom';
 import { useInView } from 'framer-motion';
 import { motion } from 'framer-motion';
 import './projectSlider.scss';
-import { Autoplay } from 'swiper/modules';
 // import '../ProjectDetail/projectDetail.scss';
 function ProjectSlider() {
   const settings = {
@@ -16,11 +15,6 @@ function ProjectSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // Autoplay: true,
-    fade: true,
-    autoplay: true,
-    cssEase: 'linear',
-    // speed: 2000,
   };
 
   const data = useLoaderData();

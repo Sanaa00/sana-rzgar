@@ -16,11 +16,7 @@ function ProjectSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // Autoplay: true,
-    fade: true,
-    autoplay: true,
-    cssEase: 'linear',
-    // speed: 2000,
+    Autoplay: true,
   };
 
   const data = useLoaderData();

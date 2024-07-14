@@ -7,7 +7,6 @@ import { useLoaderData } from 'react-router-dom';
 import { useInView } from 'framer-motion';
 import { motion } from 'framer-motion';
 import './projectSlider.scss';
-import { Autoplay } from 'swiper/modules';
 // import '../ProjectDetail/projectDetail.scss';
 function ProjectSlider() {
   const settings = {
@@ -16,18 +15,13 @@ function ProjectSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // Autoplay: true,
-    fade: true,
-    autoplay: true,
-    cssEase: 'linear',
-    // speed: 2000,
   };
 
   const data = useLoaderData();
 
   return (
-    <div className="slider-content">
-      <p className="title-pro">Projects</p>{' '}
+    <div>
+      <p>Projects</p>{' '}
       <Slider {...settings} className="slider">
         {/* <div> */}{' '}
         {data?.project?.data?.map((pro) => {
@@ -36,10 +30,10 @@ function ProjectSlider() {
           return (
             <div key={pro._id} className="pro-detail">
               <img className="img" src={pro.img} />
-              <div className="texts">
+              <div>
                 {' '}
                 <p
-                  className="card-name"
+                  className="name"
                   // initial={{ opacity: 0 }}
                   // animate={isInView ? { opacity: 1 } : { opacity: 0 }}
                   // transition={{ duration: 1, delay: isInView ? 0.5 : 0 }}
@@ -60,7 +54,7 @@ function ProjectSlider() {
                   // animate={isInView ? { opacity: 1 } : { opacity: 0 }}
                   // transition={{ duration: 1, delay: isInView ? 2.5 : 0 }}
                 >
-                  Technolgies : {pro.tech.join(', ')}
+                  {pro.tech.join(', ')}
                 </p>
               </div>
               {/* <p>{pro.name}</p> */}

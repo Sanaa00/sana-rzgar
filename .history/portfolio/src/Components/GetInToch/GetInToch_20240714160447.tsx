@@ -31,7 +31,7 @@ function GetInToch() {
       <div className="form-container">
         {' '}
         <p className="p-title">Get In Toch</p>
-        <form onSubmit={handleSubmit}>
+        <form action="/" method="post">
           <div className="form-group">
             <label htmlFor="name">Name:</label>
             <input

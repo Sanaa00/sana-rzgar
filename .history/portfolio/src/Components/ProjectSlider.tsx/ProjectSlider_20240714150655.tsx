@@ -18,9 +18,6 @@ function ProjectSlider() {
     slidesToScroll: 1,
     // Autoplay: true,
     fade: true,
-    autoplay: true,
-    cssEase: 'linear',
-    // speed: 2000,
   };
 
   const data = useLoaderData();

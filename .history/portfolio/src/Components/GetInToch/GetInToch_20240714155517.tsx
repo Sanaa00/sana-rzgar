@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './getintoch.scss';
-import { contactSubmit } from '../../apiCall/api';
 function GetInToch() {
   const [formData, setFormData] = useState({
     name: '',
@@ -14,12 +13,11 @@ function GetInToch() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    contactSubmit(formData);
-    // Handle form submission logic here
-    console.log('Form data submitted:', formData);
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Handle form submission logic here
+  //   console.log('Form data submitted:', formData);
+  // };
   return (
     <div className="container">
       <div className="img-container">

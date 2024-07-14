@@ -19,7 +19,6 @@ function ProjectSlider() {
     // Autoplay: true,
     fade: true,
     autoplay: true,
-    cssEase: 'linear',
     // speed: 2000,
   };
 

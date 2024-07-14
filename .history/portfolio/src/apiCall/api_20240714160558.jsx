@@ -46,17 +46,17 @@ export async function contactSubmit({ formData }) {
   }
 }
 
-// export async function getInTochAction({ request }) {
-//   const formData = await request.formData();
+export async function getInTochAction({ request }) {
+  const formData = await request.formData();
 
-//   const data = {
-//     name: formData.get('name'),
-//     email: formData.get('email'),
-//     phone: formData.get('phone'),
-//     message: formData.get('message'),
-//   };
+  const data = {
+    name: formData.get('name'),
+    email: formData.get('email'),
+    phone: formData.get('phone'),
+    message: formData.get('message'),
+  };
 
-//   console.log('submitted data:', data);
+  console.log('submitted data:', data);
 
-//   // return redirect('/');
-// }
+  // return redirect('/');
+}
