@@ -56,12 +56,14 @@ export async function contactSubmit(formData: FormDatas) {
   console.log('API URL:', apiUrl);
 
   try {
-    const response = await fetch(`${apiUrl}/api/contact`, {
+    const response = await fetch(`/api/contact`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(formData),
+      body: JSON.stringify(
+        Object.fromEntries(formData.entries() as Iterable<[string, any]>)
+      ),
     });
 
     if (!response.ok) {
@@ -79,6 +81,7 @@ export async function contactSubmit(formData: FormDatas) {
     }
   }
 }
+
 // import { FormDatas } from '../types';
 
 // export const projectLoader = async () => {
