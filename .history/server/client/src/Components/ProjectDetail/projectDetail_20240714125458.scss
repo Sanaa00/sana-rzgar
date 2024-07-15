@@ -22,24 +22,3 @@
     background-color: transparent;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .pro-detail {
-    padding: 0 10px;
-  }
-  .name {
-    font-size: 1rem;
-    margin-bottom: 5px;
-    background-color: transparent;
-  }
-  .title {
-    font-size: 0.5rem;
-    color: $medium_perple;
-    margin-bottom: 10px;
-    background-color: transparent;
-  }
-  .tech {
-    font-size: medium;
-    // font-size: 20px;
-    background-color: transparent;
-  }
-}

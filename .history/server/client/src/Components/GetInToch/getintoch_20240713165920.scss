@@ -44,11 +44,6 @@ form {
   label,
   textarea {
     background-color: $bg;
-    color: $text;
-    outline: none;
-  }
-  &:hover {
-    border-color: $light_purple;
   }
 }
 
