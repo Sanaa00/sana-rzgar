@@ -45,31 +45,7 @@ function About() {
           Download CV
         </a>
       </div>
-      <div className="info">
-        <div className="bootcamp">
-          {' '}
-          <p>Bootcamp</p>
-          <div className="bootcamp-info">
-            <p>WeCode</p>
-            <p>Rwannga Foundation </p>
-            <p>Front-End Web Development (3 months) </p>
-          </div>
-          <div>
-            <p>Bit</p>
-            <p>Potan Company </p>
-            <p>Full Stack Web Development (3 months) </p>
-          </div>
-          <div className="program">
-            <p>Program</p>
-            <div className="program-info">
-              <p>LevelUP Program (10 months) </p>
-              <p>Iraq Space Center</p>
-              <p>English , Computer Skill , Business Managment </p>
-              <p>Finance and Accounting </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="bootcamp"></div>
       {/* <motion.img
         className="profile-image"
         src="https://images.unsplash.com/photo-1622281587418-f2f4fc06ae7a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

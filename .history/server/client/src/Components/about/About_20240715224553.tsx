@@ -45,11 +45,11 @@ function About() {
           Download CV
         </a>
       </div>
-      <div className="info">
-        <div className="bootcamp">
+      <div className="bootcamp">
+        <div>
           {' '}
           <p>Bootcamp</p>
-          <div className="bootcamp-info">
+          <div>
             <p>WeCode</p>
             <p>Rwannga Foundation </p>
             <p>Front-End Web Development (3 months) </p>
@@ -59,14 +59,8 @@ function About() {
             <p>Potan Company </p>
             <p>Full Stack Web Development (3 months) </p>
           </div>
-          <div className="program">
+          <div>
             <p>Program</p>
-            <div className="program-info">
-              <p>LevelUP Program (10 months) </p>
-              <p>Iraq Space Center</p>
-              <p>English , Computer Skill , Business Managment </p>
-              <p>Finance and Accounting </p>
-            </div>
           </div>
         </div>
       </div>
