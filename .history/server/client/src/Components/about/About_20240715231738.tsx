@@ -50,19 +50,19 @@ function About() {
           {' '}
           <p>Bootcamp</p>
           <div className="bootcamp-info">
-            <p className="info-title">WeCode</p>
+            <p>WeCode</p>
             <p>Rwannga Foundation </p>
             <p>Front-End Web Development (3 months) </p>
           </div>
           <div className="bootcamp-info">
-            <p className="info-title">Bit</p>
+            <p>Bit</p>
             <p>Potan Company </p>
             <p>Full Stack Web Development (3 months) </p>
           </div>
           <div className="program">
             <p>Program</p>
             <div className="program-info">
-              <p className="info-title">LevelUP Program </p>
+              <p>LevelUP Program </p>
               <p>Iraq Space Center</p>
               <p>English , Computer Skill , Business Managment </p>
               <p>Finance and Accounting (10 months)</p>
