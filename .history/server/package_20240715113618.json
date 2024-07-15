@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install --prefix ./client && npm run build --prefix ./clientt && npm install"
+    "build": "npm install --prefix ./clinet && npm run build --prefix ./clinet && npm install"
   },
   "author": "",
   "license": "ISC",
