@@ -5,10 +5,10 @@
   background-color: $bg;
   .project {
     display: flex;
-    // flex-direction: row;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    // height: 600px ;
+    height: 600px;
     background-color: transparent;
 
     .project-detail {
@@ -20,17 +20,16 @@
     }
 
     .img-container {
-      width: 100% !important;
-      height: 100% !important;
       flex: 1;
-      object-fit: cover !important;
+      width: 100%;
+      height: 100%;
       background-color: transparent;
-      // object-fit: cover;
+      object-fit: cover;
 
-      img {
-        width: 100% !important ;
-        height: 100% !important;
-        object-fit: cover !important;
+      .img-project {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
     }
   }

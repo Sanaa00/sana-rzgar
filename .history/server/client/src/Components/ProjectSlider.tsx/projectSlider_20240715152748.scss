@@ -30,11 +30,11 @@
 }
 .img {
   width: 100%;
-  height: 100%;
+  height: 300px !important;
   object-fit: cover;
-  // padding-left: 10px;
-  // padding-right: 10px;
-  // border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
 }
 .texts {
   padding-left: 12px;
@@ -58,15 +58,7 @@
   font-size: medium !important;
 }
 
-@media screen and (max-width: 768px) {
-  .img {
-    width: 100%;
-    height: 300px !important;
-    object-fit: cover;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
-  }
+@media screen and (max-width: ) {
 }
 // .project {
 //   width: 100%;

@@ -62,7 +62,7 @@ function Project() {
               {index % 2 === 0 ? (
                 <ProjectDetail isInView={isInView} pro={pro} />
               ) : (
-                <img src={pro.img} alt={pro.name} />
+                <img src={pro.img} alt={pro.name} className="img-project" />
               )}
             </div>
           </motion.div>
