@@ -1,13 +1,8 @@
 import React from 'react';
 import { useRouteError } from 'react-router-dom';
 
-// Define a type for the error object
-interface RouteError {
-  message: string;
-}
-
 const Error: React.FC = () => {
-  const error = useRouteError() as RouteError; // Type the error object
+  const error = useRouteError();
 
   return (
     <div>
