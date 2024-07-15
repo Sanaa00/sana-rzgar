@@ -2,7 +2,6 @@ import './projectDetail.scss';
 import { motion } from 'framer-motion';
 import { Project } from '../../types.ts';
 import { IoLinkOutline } from 'react-icons/io5';
-import { Link } from 'react-router-dom';
 type Param = {
   isInView: boolean;
   pro: Project;
@@ -25,9 +24,9 @@ function ProjectDetail({ isInView, pro }: Param) {
         transition={{ duration: 1, delay: isInView ? 1.5 : 0 }}
       >
         <p>{pro.title}</p>
-        <Link to={pro.url}>
+        <p>
           <IoLinkOutline />
-        </Link>
+        </p>
       </motion.p>
       <motion.p
         className="tech"
