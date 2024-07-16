@@ -48,14 +48,15 @@
       }
     }
   }
-}
-.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 1;
-  font-size: 1rem;
-  width: 100%;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    font-size: 1rem;
+    width: 100%;
+  }
 }
 .program {
   font-size: larger;
