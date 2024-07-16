@@ -55,35 +55,28 @@
     justify-content: space-between;
     flex: 1;
     font-size: 1rem;
-    width: 100%;
+
     .bootcamp {
       color: $medium_perple;
       font-size: larger;
-      width: 100%;
 
       .bootcamp-info {
         font-size: medium;
         color: $text;
-        width: 100%;
-
         margin-top: 20px;
       }
     }
     .info-title {
       font-size: x-large;
-      width: 100%;
     }
   }
 
   .program {
     font-size: larger;
-    width: 100%;
-
     color: $medium_perple;
     margin-top: 20px;
     .program-info {
       color: $text;
-      width: 100%;
       font-size: medium;
       margin-top: 20px;
     }
