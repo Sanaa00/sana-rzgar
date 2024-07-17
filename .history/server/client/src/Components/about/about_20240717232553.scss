@@ -253,12 +253,11 @@
     }
 
     &:first-child {
-      font-size: larger;
+      font-size: 1rem !important;
       font-weight: 600;
       margin-bottom: 5px;
       text-align: center;
       background-color: transparent;
-      color: $medium_perple;
     }
 
     &:nth-child(2) {
