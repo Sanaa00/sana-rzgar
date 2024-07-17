@@ -273,8 +273,7 @@
       // text-align: center;
       background-color: transparent;
       // color: $medium_perple;
-      &:nth-child(2),
-      &:first-child {
+      &:nth-child(2) {
         text-align: center;
         font-size: larger;
 

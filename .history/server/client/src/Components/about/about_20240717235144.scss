@@ -272,25 +272,25 @@
       margin-bottom: 5px;
       // text-align: center;
       background-color: transparent;
-      // color: $medium_perple;
-      &:nth-child(2),
-      &:first-child {
-        text-align: center;
-        font-size: larger;
+      // color: $medium_perple; &:nth-child(2) {
+      text-align: center;
+      font-size: larger;
 
-        margin-bottom: 10px;
-        color: $medium_perple;
-        background-color: transparent;
-      }
-
-      &:last-child {
-        font-size: medium !important;
-        padding-right: 10px;
-        background-color: $bg;
-        text-align: center;
-        color: $text;
-      }
+      margin-bottom: 10px;
+      color: $medium_perple;
+      background-color: transparent;
     }
+
+    &:last-child {
+      font-size: medium !important;
+      padding-right: 10px;
+      background-color: $bg;
+      text-align: center;
+      color: $text;
+    }
+    }
+
+   
   }
   .cv {
     display: none;
