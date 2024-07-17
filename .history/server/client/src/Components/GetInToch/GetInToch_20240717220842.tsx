@@ -20,16 +20,10 @@ function GetInToch() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log('Form data submitted 1:', formData);
     await contactSubmit(formData);
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      message: '',
-    });
+    setFormData;
     // Handle form submission logic here
-    console.log('Form data submitted 2:', formData);
+    console.log('Form data submitted:', formData);
   };
 
   return (
