@@ -26,22 +26,22 @@ function About() {
   return (
     <div className="about-container">
       <div className="text-container">
-        {/* {titles.map((title, index) => ( */}
-        {/* <div key={index} className="title"> */}
-        {title?.map((text, i) => (
-          <span
-            key={i}
-            // custom={i}
-            // initial="hidden"
-            // animate="visible"
-            // variants={letterAnimation}
-          >
-            {text}
-            {/* {char} */}
-          </span>
+        {titles.map((title, index) => (
+          <div key={index} className="title">
+            {title.map((char, i) => (
+              <span
+                key={i}
+                // custom={i}
+                // initial="hidden"
+                // animate="visible"
+                // variants={letterAnimation}
+              >
+                {text}
+                {/* {char} */}
+              </span>
+            ))}
+          </div>
         ))}
-        {/* </div> */}
-        {/* ))} */}
         <a className="cv" download href={cv}>
           Download CV
         </a>
