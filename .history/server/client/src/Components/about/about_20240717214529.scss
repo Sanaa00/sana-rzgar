@@ -185,13 +185,10 @@
     font-weight: bold;
     background-color: $bg;
     height: fit-content;
-    width: 80%;
+    width: 100%;
 
     span {
       background-color: transparent;
-      display: flex;
-      justify-content: start;
-      text-align: center;
     }
 
     &:first-child {
