@@ -40,8 +40,7 @@ function About() {
             // animate="visible"
             // variants={letterAnimation}
           >
-            {txt.text}
-            {/* {txt} */}
+            {txt}
             {/* {char} */}
           </span>
         ))}

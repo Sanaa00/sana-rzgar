@@ -32,7 +32,7 @@ function About() {
       <div className="text-container">
         {/* {titles.map((title, index) => ( */}
         {/* <div key={index} className="title"> */}
-        {titles?.map((txt, i) => (
+        {titles?.map((text, i) => (
           <span
             key={i}
             // custom={i}
@@ -40,8 +40,7 @@ function About() {
             // animate="visible"
             // variants={letterAnimation}
           >
-            {txt.text}
-            {/* {txt} */}
+            {text}
             {/* {char} */}
           </span>
         ))}

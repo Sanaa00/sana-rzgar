@@ -1,11 +1,12 @@
 import './about.scss';
 // import { motion } from 'framer-motion';
 import cv from '../../assets/sana.pdf';
-// type Title = {
-//   titles: { text: string; delay: number }[];
-// };
-type Titles = { text: string; delay: number };
-
+type Title = {
+ Titles[]
+};
+type Titles = {
+  { text: string, delay: number }
+}
 function About() {
   // const letterAnimation = {
   //   hidden: { opacity: 0 },
@@ -18,7 +19,7 @@ function About() {
   //   }),
   // };
 
-  const titles: Titles[] = [
+  const titles = [
     { text: 'Sana Rzgar', delay: 0.5 },
     { text: 'Front-End Developer', delay: 1.5 },
     {
@@ -32,7 +33,7 @@ function About() {
       <div className="text-container">
         {/* {titles.map((title, index) => ( */}
         {/* <div key={index} className="title"> */}
-        {titles?.map((txt, i) => (
+        {titles?.map((text, i) => (
           <span
             key={i}
             // custom={i}
@@ -40,8 +41,7 @@ function About() {
             // animate="visible"
             // variants={letterAnimation}
           >
-            {txt.text}
-            {/* {txt} */}
+            {text}
             {/* {char} */}
           </span>
         ))}

@@ -32,19 +32,18 @@ function About() {
       <div className="text-container">
         {/* {titles.map((title, index) => ( */}
         {/* <div key={index} className="title"> */}
-        {titles?.map((txt, i) => (
-          <span
+        {titles?.map((txt, i) => 
+         return(<span
             key={i}
             // custom={i}
             // initial="hidden"
             // animate="visible"
             // variants={letterAnimation}
           >
-            {txt.text}
-            {/* {txt} */}
+            {txt}
             {/* {char} */}
-          </span>
-        ))}
+          </span>) 
+        )}
         {/* </div> */}
         {/* ))} */}
         <a className="cv" download href={cv}>

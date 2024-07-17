@@ -33,15 +33,14 @@ function About() {
         {/* {titles.map((title, index) => ( */}
         {/* <div key={index} className="title"> */}
         {titles?.map((txt, i) => (
-          <span
+         return <span
             key={i}
             // custom={i}
             // initial="hidden"
             // animate="visible"
             // variants={letterAnimation}
           >
-            {txt.text}
-            {/* {txt} */}
+            {txt}
             {/* {char} */}
           </span>
         ))}
