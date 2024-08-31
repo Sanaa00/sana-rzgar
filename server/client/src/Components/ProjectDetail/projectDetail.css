@@ -15,8 +15,45 @@
   color: #9370db;
   margin-bottom: 10px;
   background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .pro-detail .tech {
   font-size: 20px;
   background-color: transparent;
+}
+
+.github {
+  color: #f4f1fb;
+}
+.github .link-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .pro-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .name {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    background-color: transparent;
+  }
+  .title {
+    font-size: 0.5rem;
+    color: #9370db;
+    margin-bottom: 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tech {
+    font-size: medium;
+    background-color: transparent;
+  }
 }/*# sourceMappingURL=projectDetail.css.map */

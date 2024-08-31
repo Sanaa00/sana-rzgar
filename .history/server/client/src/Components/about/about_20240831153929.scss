@@ -116,7 +116,7 @@
 
     &:nth-child(3) {
       // font-size: 2px !important;
-      background-color: transparent;
+      background-color: $bg;
     }
 
     span {
@@ -140,7 +140,7 @@
 @media screen and (min-width: 1024px) {
   .title {
     font-weight: bold;
-    background-color: transparent;
+    background-color: $bg;
     height: fit-content;
     // font-size: 2rem;
 
@@ -165,7 +165,7 @@
     &:last-child {
       font-size: 10px !important;
       padding-right: 10px;
-      background-color: transparent;
+      background-color: $bg;
     }
   }
 }
@@ -183,7 +183,7 @@
   }
   .title {
     font-weight: bold;
-    background-color: transparent;
+    background-color: $bg;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -210,7 +210,7 @@
       &:last-child {
         font-size: medium !important;
         padding-right: 10px;
-        background-color: transparent;
+        background-color: $bg;
         text-align: center;
         color: $text;
       }
@@ -259,7 +259,7 @@
   }
   .title {
     font-weight: bold;
-    background-color: transparent;
+    background-color: $bg;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -286,7 +286,7 @@
       &:last-child {
         font-size: medium !important;
         padding-right: 10px;
-        background-color: transparent;
+        background-color: $bg;
         text-align: center;
         color: $text;
       }

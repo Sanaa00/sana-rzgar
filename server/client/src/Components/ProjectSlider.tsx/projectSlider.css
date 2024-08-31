@@ -1,34 +1,52 @@
-.slider-container {
+.slider-content {
+  height: 100%;
   width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  color: aliceblue;
+  margin-top: 100px;
 }
 
-.project {
+.title-pro {
+  font-size: 2rem !important;
+  width: 100%;
+  text-align: center;
+  color: #9370db;
+  background-color: transparent;
+  margin-bottom: 50px;
+}
+
+.img {
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.slide {
-  width: 100%;
-  height: 100%;
-  font-size: smaller;
-  color: #f4f1fb;
+.texts {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 10px;
 }
 
-.slider {
-  width: 100%;
-  height: 100vh;
-  color: #f4f1fb;
-  background-color: azure;
-  z-index: 50;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.card-name {
+  font-size: large;
+}
+
+.title {
+  margin-top: 5px;
+  font-size: large !important;
+}
+
+.tech {
+  font-size: medium !important;
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    width: 100%;
+    height: 300px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+  }
 }/*# sourceMappingURL=projectSlider.css.map */
